@@ -6,3 +6,20 @@
   1/17/2017
 */
 
+package rectangle;
+
+import java.util.Scanner;
+
+public class rectangle 
+{
+	public static void main(String[] args)
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("Please enter the width and length of rectangle");
+		Double length = s.nextDouble();
+		Double width = s.nextDouble();
+		Double area =length * width;
+		System.out.println("Area is"+" "+area);
+	}
+
+}
